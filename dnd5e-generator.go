@@ -1,10 +1,8 @@
 package main
 
 import (
-	"encoding/csv"
 	"fmt"
 	"math/rand"
-	"os"
 )
 
 var level int
