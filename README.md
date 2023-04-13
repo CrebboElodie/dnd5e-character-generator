@@ -15,6 +15,6 @@ Alignment
 
 Health 1-20
 
-Stats: Strenth, Dexterity, Constitution, Inteligence, Wisdom, Charisma 1-20
+Stats: Strenth, Dexterity, Constitution, Inteligence, Wisdom, Charisma 3*D6
 
 ![demo](https://user-images.githubusercontent.com/100001938/231737231-66831669-520b-41f9-8e0a-e0f62554f28a.gif)
