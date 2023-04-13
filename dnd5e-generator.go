@@ -38,7 +38,7 @@ func main() {
 	fmt.Printf("Health:%d\n", health)
 
 	for index := 0; index <= 5; index++ {
-		stats[index] = (rand.Intn(6-1) + 1) * 3
+		stats[index] = (rand.Intn(6-1) + 1) + (rand.Intn(6-1) + 1) + (rand.Intn(6-1) + 1)
 		fmt.Printf("%s:%d\n", stats_name[index], stats[index])
 	}
 }
