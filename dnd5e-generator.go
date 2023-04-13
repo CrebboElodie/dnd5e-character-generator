@@ -19,7 +19,7 @@ var stats = [6]int{}
 var stats_name = [6]string{"Str", "Dex", "Con", "Int", "Wis", "Cha"}
 
 func main() {
-	level = rand.Intn(20 - 1)
+	level = rand.Intn(20-1) + 1
 	fmt.Printf("Lv:%d\n", level)
 
 	class = classes[rand.Intn(11-0)]
@@ -34,11 +34,11 @@ func main() {
 	alignment = alignments[rand.Intn(2-0)][rand.Intn(2-0)]
 	fmt.Printf("Alignment:%s\n", alignment)
 
-	health = rand.Intn(20 - 1)
+	health = rand.Intn(20-1) + 1
 	fmt.Printf("Health:%d\n", health)
 
 	for index := 0; index <= 5; index++ {
-		stats[index] = rand.Intn(20 - 1)
+		stats[index] = (rand.Intn(6-1) + 1) * 3
 		fmt.Printf("%s:%d\n", stats_name[index], stats[index])
 	}
 }
