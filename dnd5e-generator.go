@@ -21,16 +21,6 @@ var stats = [6]int{}
 var stats_name = [6]string{"Str", "Dex", "Con", "Int", "Wis", "Cha"}
 
 func main() {
-
-	file, err := os.Open("./values.csv")
-	if err != nil {
-		fmt.Println(err)
-	}
-	reader := csv.NewReader(file)
-	records, _ := reader.ReadAll()
-
-	fmt.Println(records)
-
 	level = rand.Intn(20 - 1)
 	fmt.Printf("Lv:%d\n", level)
 
